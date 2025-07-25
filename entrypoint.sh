@@ -5,8 +5,8 @@ set -euo pipefail
 export GITHUB="true"
 
 GITHUB_ACTION_PATH="${GITHUB_ACTION_PATH%/}"
-DRONE_SCP_RELEASE_URL="${DRONE_SCP_RELEASE_URL:-https://github.com/appleboy/drone-scp/releases/download}"
-DRONE_SCP_VERSION="${DRONE_SCP_VERSION:-1.8.0}"
+DRONE_SCP_RELEASE_URL="${DRONE_SCP_RELEASE_URL:-https://github.com/ForestHouse2316/drone-scp-tar-modify/releases/download}"
+DRONE_SCP_VERSION="${DRONE_SCP_VERSION:-1.9.0}"
 
 function log_error() {
   echo "$1" >&2
